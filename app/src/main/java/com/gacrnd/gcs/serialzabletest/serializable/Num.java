@@ -1,4 +1,4 @@
-package com.gacrnd.gcs.serialzabletest;
+package com.gacrnd.gcs.serialzabletest.serializable;
 
 import java.io.File;
 import java.io.FileInputStream;

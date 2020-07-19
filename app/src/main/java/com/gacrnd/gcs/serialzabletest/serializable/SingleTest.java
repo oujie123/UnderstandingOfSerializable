@@ -1,4 +1,4 @@
-package com.gacrnd.gcs.serialzabletest;
+package com.gacrnd.gcs.serialzabletest.serializable;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -16,7 +16,7 @@ public class SingleTest {
         System.out.println(copyInstance(instance).hashCode());
         System.out.println("=================反射======================"); //使用反射方式直接调用私有构造器
         Class<Single> clazz =
-                (Class<Single>) Class.forName("com.gacrnd.gcs.serialzabletest.Single");
+                (Class<Single>) Class.forName("com.gacrnd.gcs.serialzabletest.serializable.Single");
         //readResolve如果不实现这个方法，会得到两个无参构造方法，报错
         Constructor<Single> con = clazz.getDeclaredConstructor(null);
         con.setAccessible(true);//绕过权限管理，即在true的情况下，可以通过构造函数 新建对象

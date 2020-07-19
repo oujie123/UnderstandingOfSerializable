@@ -1,7 +1,9 @@
-package com.gacrnd.gcs.serialzabletest;
+package com.gacrnd.gcs.serialzabletest.serializable;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.gacrnd.gcs.serialzabletest.R;
 
 public class MainActivity extends AppCompatActivity {
 
